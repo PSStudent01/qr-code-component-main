@@ -1,9 +1,4 @@
 
-/* Google Font 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-*/
-
-
 * {
   box-sizing: border-box;
 }
@@ -40,9 +35,10 @@ body{
     background: hsl(0, 0%, 100%);
     /*width: 420px;*/
     width: 320px;
-    height: 499px; 
+    /*height: 499px;*/
+    height: auto; 
     /*margin-top: 16px;*/
-    padding: 16px 16px 40px;  
+    padding: 16px 16px 40px;
     border-radius: 20px;  
 }
 
@@ -51,7 +47,8 @@ img {
     /*border: 3px solid green;*/
     /*width: 100%;*/
     width: 288px; 
-    height: 288px; 
+    /*height: 288px; */
+    height: auto;
     border-radius: 10px; 
     /*margin-bottom: auto;*/
 }
